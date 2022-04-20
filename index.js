@@ -23,3 +23,7 @@ const celsiusLeft = document.querySelector('#id-celsius-left');
 const fahrenheitRight = document.querySelector('#id-fahrenheit-right');
 const fahrenheitLeft = document.querySelector('#id-fahrenheit-left');
 const celsiusRight = document.querySelector('#id-celsius-right');
+
+inputValue.addEventListener('input', () => {
+
+});
