@@ -25,5 +25,27 @@ const fahrenheitLeft = document.querySelector('#id-fahrenheit-left');
 const celsiusRight = document.querySelector('#id-celsius-right');
 
 inputValue.addEventListener('input', () => {
+  //* Converted LENGTH
+  meterLeft.textContent = inputValue.value;
+  feetLeft.textContent = inputValue.value;
+  meterRight.textContent = Math.round((inputValue.value * 3.28084) * 100) / 100;
+  feetRight.textContent = Math.round((inputValue.value * 0.3048) * 100) / 100;
 
+  //* Converted VOLUME
+  literLeft.textContent = inputValue.value;
+  gallonLeft.textContent = inputValue.value;
+  gallonRight.textContent = Math.round((inputValue.value * 0.264172) * 100) / 100;
+  literRight.textContent = Math.round((inputValue.value * 3.785) * 100) / 100;
+
+  //* Converted WEIGHT
+  kiloLeft.textContent = inputValue.value;
+  poundLeft.textContent = inputValue.value;
+  poundRight.textContent = Math.round((inputValue.value * 2.20462) * 100) / 100;
+  kiloRight.textContent = Math.round((inputValue.value * 0.453592) * 100) / 100;
+
+  //* Converted TEMPERATURE
+  celsiusLeft.textContent = inputValue.value;
+  fahrenheitLeft.textContent = inputValue.value;
+  fahrenheitRight.textContent = Math.round((inputValue.value * 2.20462) * 100) / 100;
+  celsiusRight.textContent = Math.round(((inputValue.value * 9/5) + 32) * 100) / 100;
 });
