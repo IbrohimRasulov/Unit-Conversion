@@ -1,6 +1,13 @@
 /* eslint-disable font-family-no-missing-generic-family-keyword */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 * {
   font-family: "Quicksand";
   margin: 0;
@@ -41,20 +48,6 @@ body {
       hsl(55deg 100% 50%) 100%);
 
 
-}
-
-#unit h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  text-align: center;
-  padding-bottom: 15px;
-}
-
-p {
-  line-height: 35px;
 }
 
 .conversion,
@@ -145,17 +138,28 @@ p {
   width: 250px;
 }
 
-span {
-  color: #ed4880;
-  font-weight: bold;
+#unit h1 {
+  font-size: 3rem;
 }
 
 #unit input::placeholder {
   color: #f7f7f78c;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #282c34
+}
+
+p {
+  line-height: 35px;
+
+}
+
+span {
+  color: #121212;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
