@@ -2,11 +2,9 @@
 
 # Unit Conversion App
 
-> Unit Conversion app help you to convert units between meter-foot, kilo-pound, liter-gallon, celsius-fahrenheit.
+> Unit Conversion app helps you to convert units between meter-foot, kilo-pound, liter-gallon, celsius-fahrenheit. This is a solo project, part of [Scrimba JavaScript course](https://scrimba.com/learn/learnjavascript) using this [figma design](https://www.figma.com/file/AdqUVRQCZGP1zRcEvzmJTm/Unit-Conversion?node-id=0%3A1).
 
-> This is a solo project, part of [Scrimba JavaScript course](https://scrimba.com/learn/learnjavascript) using this [figma design](https://www.figma.com/file/AdqUVRQCZGP1zRcEvzmJTm/Unit-Conversion?node-id=0%3A1).
-
-https://user-images.githubusercontent.com/78875455/153818810-5e73e800-7d09-4fea-9ea1-588be2547380.mov
+https://user-images.githubusercontent.com/78875455/164329089-315ce737-4e08-4d75-be2a-e5c9ff47d9fd.mp4
 
 ## Built With
 
@@ -16,7 +14,7 @@ https://user-images.githubusercontent.com/78875455/153818810-5e73e800-7d09-4fea-
 
 ## Live Demo
 
-[Live Demo Link](https://62227b9d6423c50aaf6bfbed--loving-hawking-f2842b.netlify.app/)
+[Live Demo Link](https://ibrohimrasulov.github.io/Unit-Conversion/)
 
 ## Authors
 
