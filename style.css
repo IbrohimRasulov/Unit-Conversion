@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  font-family: "Quicksand";
+  margin: 0;
+}
+
+body {
+  background-color: #18244a;
+}
+
+#container {
+  width: 800px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 38vh 25vh 25vh;
+  grid-gap: 15px;
+  grid-template-areas:
+    "unit unit"
+    "length volume"
+    "weight temperature";
+}
+
+#unit {
+  grid-area: unit;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+  background-image:
+    linear-gradient(45deg,
+      hsl(240deg 100% 20%) 7%,
+      hsl(289deg 100% 21%) 30%,
+      hsl(315deg 100% 27%) 41%,
+      hsl(329deg 100% 36%) 49%,
+      hsl(337deg 100% 43%) 57%,
+      hsl(357deg 91% 59%) 64%,
+      hsl(17deg 100% 59%) 70%,
+      hsl(34deg 100% 53%) 78%,
+      hsl(45deg 100% 50%) 86%,
+      hsl(55deg 100% 50%) 100%);
+}
+
+.conversion,
+#unit {
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.2rem;
+  transition: ease 0.5s;
+}
+
+.conversion:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.temperature {
+  grid-area: temperature;
+  background-image:
+    linear-gradient(310deg,
+      hsl(240deg 100% 82%) 1%,
+      hsl(258deg 84% 79%) 36%,
+      hsl(276deg 70% 75%) 48%,
+      hsl(295deg 56% 70%) 56%,
+      hsl(313deg 65% 69%) 62%,
+      hsl(324deg 77% 70%) 67%,
+      hsl(333deg 86% 69%) 72%,
+      hsl(341deg 91% 69%) 77%,
+      hsl(348deg 92% 69%) 83%,
+      hsl(356deg 89% 68%) 100%);
+}
+
+.length {
+  grid-area: length;
+  background-image:
+    linear-gradient(305deg,
+      hsl(240deg 93% 32%) 0%,
+      hsl(229deg 100% 34%) 20%,
+      hsl(225deg 100% 36%) 28%,
+      hsl(221deg 100% 38%) 35%,
+      hsl(218deg 100% 40%) 42%,
+      hsl(215deg 100% 43%) 49%,
+      hsl(214deg 90% 47%) 56%,
+      hsl(214deg 85% 52%) 65%,
+      hsl(213deg 92% 56%) 76%,
+      hsl(213deg 100% 61%) 100%);
+}
+
+.volume {
+  grid-area: volume;
+  background-image:
+    linear-gradient(225deg,
+      hsl(47deg 98% 76%) 0%,
+      hsl(43deg 97% 71%) 31%,
+      hsl(40deg 97% 67%) 43%,
+      hsl(37deg 98% 63%) 51%,
+      hsl(34deg 98% 59%) 58%,
+      hsl(31deg 99% 55%) 64%,
+      hsl(28deg 100% 50%) 69%,
+      hsl(23deg 100% 50%) 75%,
+      hsl(16deg 100% 50%) 82%,
+      hsl(0deg 100% 50%) 100%);
+}
+
+.weight {
+  grid-area: weight;
+  background-image:
+    linear-gradient(45deg,
+      hsl(160deg 84% 39%) 0%,
+      hsl(169deg 100% 33%) 26%,
+      hsl(177deg 100% 30%) 37%,
+      hsl(185deg 100% 29%) 45%,
+      hsl(191deg 100% 28%) 52%,
+      hsl(196deg 100% 27%) 59%,
+      hsl(200deg 100% 25%) 66%,
+      hsl(204deg 100% 22%) 72%,
+      hsl(207deg 100% 18%) 81%,
+      hsl(226deg 51% 19%) 100%);
+}
+
+#unit input {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  margin: 40px;
+  color: #fff;
+  border-bottom: 5px solid #3e396b;
+  width: 250px;
+}
+
+#unit h1 {
+  font-size: 3rem;
+}
+
+#unit input::placeholder {
+  color: #f7f7f78c;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #282c34;
+}
+
+p {
+  line-height: 35px;
+}
+
+span {
+  color: #121212;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
